@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduWave - Online Courses</title>
+  <!-- Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#"><i class='bx bxs-graduation'></i><span>EduWave</span></a>
+      <ul class="menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <div class="copy">
+        <p class="eyebrow"><i class='bx bx-bulb'></i> Learn the modern way</p>
+        <h1>Build skills with a clean, flexible layout</h1>
+        <p class="lead">This single page demonstrates semantic HTML (header, nav, main, section, footer) and CSS from Week‑05: <strong>flexbox</strong>, <strong>positioning</strong>, <strong>margin</strong>, <strong>padding</strong>, plus smooth <strong>gradients</strong>.</p>
+        <div class="cta">
+          <a href="#courses" class="btn primary"><i class='bx bxs-book'></i> Browse Courses</a>
+          <a href="#features" class="btn ghost"><i class='bx bx-play'></i> See Features</a>
+        </div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <!-- Simple decorative illustration (no external images) -->
+        <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract education art">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#22d3ee"/>
+              <stop offset="1" stop-color="#6366f1"/>
+            </linearGradient>
+          </defs>
+          <rect rx="14" width="200" height="120" fill="url(#g1)" opacity="0.25"/>
+          <g fill="none" stroke="url(#g1)" stroke-width="3">
+            <rect x="24" y="20" width="64" height="44" rx="6" />
+            <path d="M30 70 h50" />
+            <rect x="110" y="30" width="60" height="34" rx="6" />
+            <path d="M116 70 h48" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M0,64L60,80C120,96,240,128,360,128C480,128,600,96,720,85.3C840,75,960,85,1080,85.3C1200,85,1320,75,1380,69.3L1440,64L1440,120L0,120Z"/>
+      </svg>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="features" class="container section">
+      <h2 class="title">Why choose EduWave?</h2>
+      <p class="subtitle">A compact demo using only HTML & CSS. Responsive by design via flexbox.</p>
+      <div class="features">
+        <article class="feature">
+          <i class='bx bxs-layer'></i>
+          <div><h3>Flexible Layout</h3><p>Cards and grids adapt with <strong>flex-wrap</strong> and sensible gaps.</p></div>
+        </article>
+        <article class="feature">
+          <i class='bx bxs-color'></i>
+          <div><h3>Gradient Aesthetics</h3><p>Soft linear & radial gradients from the header to buttons.</p></div>
+        </article>
+        <article class="feature">
+          <i class='bx bxs-grid'></i>
+          <div><h3>Semantic Structure</h3><p>Clear regions: header, nav, main, section, footer.</p></div>
+        </article>
+        <article class="feature">
+          <i class='bx bxs-shield-alt-2'></i>
+          <div><h3>Accessible Defaults</h3><p>Readable contrast, focusable links, and descriptive text.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses" class="container section">
+      <h2 class="title">Featured Courses</h2>
+      <p class="subtitle">A tiny catalog to show card layout, spacing, and shadows.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="badge">New</div>
+          <h4>Web Fundamentals</h4>
+          <p>HTML, CSS, and web standards for beginners.</p>
+          <a class="btn primary" href="#"><i class='bx bx-right-arrow'></i> Explore</a>
+        </article>
+        <article class="card">
+          <div class="badge">Popular</div>
+          <h4>Responsive Layouts</h4>
+          <p>Master flexbox and modern responsive patterns.</p>
+          <a class="btn primary" href="#"><i class='bx bx-right-arrow'></i> Explore</a>
+        </article>
+        <article class="card">
+          <div class="badge">Trending</div>
+          <h4>Design for Developers</h4>
+          <p>Color, spacing, and typography without the fluff.</p>
+          <a class="btn primary" href="#"><i class='bx bx-right-arrow'></i> Explore</a>
+        </article>
+        <article class="card">
+          <div class="badge">Classic</div>
+          <h4>Version Control Basics</h4>
+          <p>Collaborate with Git like a pro.</p>
+          <a class="btn primary" href="#"><i class='bx bx-right-arrow'></i> Explore</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2 class="title">About This Page</h2>
+      <p class="subtitle">You can expand this into a real site. The foundation layout, spacing, and components - is ready.</p>
+      <div class="highlight">
+        <p><strong>Tips:</strong> Use icons from <a href="https://boxicons.com/">Boxicons</a>, illustrations from <a href="https://undraw.co/">unDraw</a> or <a href="https://www.flaticon.com/">Flaticon</a>, and try a new palette from <a href="https://colorhunt.co/">ColorHunt</a>. Generate soft shadows with <a href="https://cssgenerator.org/box-shadow-css-generator.html">CSS Shadow Generator</a> and waves with <a href="https://getwaves.io/">GetWaves</a>.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2 class="title">Contact</h2>
+      <p class="subtitle">Questions or ideas? Reach out:</p>
+      <div class="links">
+        <a class="btn ghost" href="#"><i class='bx bxl-github'></i> GitHub</a>
+        <a class="btn ghost" href="#"><i class='bx bxl-figma'></i> Figma</a>
+        <a class="btn ghost" href="#"><i class='bx bxs-envelope'></i> Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <a class="brand" href="#"><i class='bx bxs-graduation'></i> EduWave</a>
+      <small>© 2025 EduWave - Built with semantic HTML & Flexbox. No JavaScript.</small>
+    </div>
+  </footer>
+</body>
+</html>
